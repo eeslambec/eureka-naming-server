@@ -6,8 +6,8 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8741/eureka/ # Still needed for clients to find it
-    register-with-eureka: false  # Don?t register itself
-    fetch-registry: false        # Don?t fetch registry (it?s the source)
+      defaultZone: http://localhost:8741/eureka/
+    register-with-eureka: false
+    fetch-registry: false
   server:
     enable-self-preservation: false
